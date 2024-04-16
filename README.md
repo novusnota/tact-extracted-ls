@@ -57,11 +57,11 @@ The following editors and IDEs have available clients:
 -->
 
 * [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=KonVik.tact-lang-vscode))
-* Sublime Text ([see below](#sublime))
+* Sublime Text ([see below](#sublime-text))
 * Vim ([see below](#vim))
 * Neovim ([see below](#neovim))
 * Helix ([see below](#helix))
-* [Oni](https://github.com/onivim/oni) ([see below](#oni))
+* Oni ([see below](#oni))
 * IntelliJ IDEA and related IDEs from JetBrains ([see below](#jetbrains))
 
 ### Sublime Text
