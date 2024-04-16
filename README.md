@@ -4,6 +4,13 @@
 
 ⚙ Automatically builds upon updates in the upstream VSCode extension through Github Actions.
 
+## Features
+
+* Code completion for all variables, functions, global parameters and unique types for tact
+* Code completion for all contracts / libraries in the current file and all referenced imports
+* Error highlighting
+* Additional information by hover event (very scarce)
+
 ## Known issues
 
 * Formatter from the Tact's [VSCode extension](https://github.com/tact-lang/tact-vscode) is not a part of language server implementation (i.e. not in `server.ts`), and therefore it's unaccessible in such re-packaged form.
