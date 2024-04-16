@@ -191,5 +191,5 @@ Packaged with 🤍 by [Novus Nota](https://github.com/novusnota).
 
 ## License
 
-* Packaging: [MIT](https://github,com/novusnota/tact-extracted-ls/blob/main/LICENSE) © [Novus Nota](https://github.com/novusnota)
+* Packaging: [MIT](https://github.com/novusnota/tact-extracted-ls/blob/main/LICENSE) © [Novus Nota](https://github.com/novusnota)
 * [VSCode extension](https://github.com/tact-lang/tact-vscode): [Apache License 2.0](https://github.com/tact-lang/tact-vscode/blob/main/LICENSE)
