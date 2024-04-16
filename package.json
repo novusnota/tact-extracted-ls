@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "tact-extracted-ls",
+  "version": "0.1.0",
+  "description": "Extracted and repackaged Tact language server (LS) from the official VSCode extension for Tact",
+  "author": "Novus Nota (https://github.com/novusnota)",
+  "license": "MIT",
+  "homepage": "https://github.com/novusnota/tact-extracted-ls#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/novusnota/tact-extracted-ls.git"
+  },
+  "bugs": {
+    "url": "https://github.com/novusnota/tact-extracted-ls/issues"
+  },
+  "keywords": [
+    "ton",
+    "the-open-network",
+    "blockchain",
+    "cryptocurrency",
+    "lsp",
+    "lsp-server",
+    "language-server",
+    "tact",
+    "tact-extracted-ls",
+    "tact-lang"
+  ],
+  "bin": {
+    "tact-extracted-ls": "bin/bundle.js"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "devDependencies": {
+    "esbuild": "^0.20.2"
+  },
+  "scripts": {
+    "esbuild": "esbuild"
+  },
+  "packageManager": "yarn@1.22.22"
+}
