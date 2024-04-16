@@ -40,6 +40,8 @@ npm i -g tact-extracted-ls
 
 </details>
 
+<p></p>
+
 ## Clients
 
 The following editors and IDEs have available clients:
