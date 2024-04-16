@@ -2,7 +2,7 @@
 
 ⚡ Tact language server (of LSP specification), extracted and re-packaged from its official [VSCode extension](https://github.com/tact-lang/tact-vscode).
 
-⚙ Automatically re-built upon updates in the upstream VSCode extension through Github Actions.
+⚙ Automatically builds upon updates in the upstream VSCode extension through Github Actions.
 
 ## Known issues
 
@@ -56,7 +56,7 @@ The following editors and IDEs have available clients:
 - Neovim: nvim-lspconfig, mason-lsp
 -->
 
-* [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=KonVik.tact-lang-vscode))
+* [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=KonVik.tact-lang-vscode)
 * Sublime Text ([see below](#sublime-text))
 * Vim ([see below](#vim))
 * Neovim ([see below](#neovim))
@@ -175,15 +175,17 @@ As of now, Language Server Protocol support is unofficial and only available in 
 
 ### The rest
 
-Didn't find your editor on the list? Then, you'll have to check how to setup a new language server for it in it's documentation or related community resources.
+Didn't find your editor on the list? Try searching for tips in the respective documentation or related community resources.
 
-Note that some editors may not support the Language Server Protocol (LSP), in which case you're out of luck until such support is added by editor maintainers or external contributors, such as yourself. But if you did manage to setup and use Tact language server in your editor, then please file an issue or submit a PR to this repository and explain how 🤗
+Note, that some editors may not support the Language Server Protocol (LSP), in which case you're out of luck until such support is added by editor maintainers or external contributors, such as yourself.
+
+If you did manage to set up and use the Tact language server in your editor, then please file an issue or submit a PR to this repository and explain how you did it 🤗
 
 ## Contributing
 
 If you have any issues which arise ONLY in the case of using provided language servers outside of VSCode, please, file an issue to [the present repository](https://github.com/novusnota/tact-extracted-ls/issues).
 
-In any other case, please, file issues to the respective VSCode extension repository: [Tact VSCode extension](https://github.com/tact-lang/tact-vscode).
+In any other case, please, file issues to the upstream extension repository: [Tact VSCode extension](https://github.com/tact-lang/tact-vscode).
 
 ## Credits
 
