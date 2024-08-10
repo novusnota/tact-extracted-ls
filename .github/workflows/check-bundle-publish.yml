@@ -47,8 +47,8 @@ jobs:
       - name: Clone and bundle
         run: |
           git clone "$REPO" extension
-          cd extension; yarn install --frozen-lockfile; cd ..
-          yarn esbuild extension/src/server.ts --outfile=lib/tact.js --minify --bundle --platform=node --target=node16
+          cd extension; yarn install; cd ..
+          yarn esbuild extension/src/server.ts --outfile=lib/tact.js --minify --bundle --platform=node --target=node20
 
       - name: Commit changes
         run: |

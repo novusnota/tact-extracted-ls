@@ -17,7 +17,7 @@
 
 ## Installation
 
-The only requirement is having a Node.js version 16 or higher installed. Then, run the following command to install the extracted Tact language server:
+The only requirement is having a Node.js version 20 or higher installed. Then, run the following command to install the extracted Tact language server:
 
 ```bash
 npm i -g tact-extracted-ls
