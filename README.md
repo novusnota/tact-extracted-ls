@@ -1,4 +1,4 @@
-# tact-extracted-ls
+# DEPRECATED! Use http://github.com/tact-lang/tact-language-server instead!
 
 ⚡ Tact language server (of LSP specification), extracted and re-packaged from its official [VSCode extension](https://github.com/tact-lang/tact-vscode).
 
